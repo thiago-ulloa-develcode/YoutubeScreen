@@ -1,0 +1,59 @@
+#searchBar {
+    display: flex;
+    width: 50%;
+    height: 75%;
+    font-size: 16px;
+    color: white;
+    padding: 6px;
+    background-color: #121212;
+    border-color :#373737;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+}
+
+.header {
+    
+    display: flex;
+    background-color: #202020;
+    height: 6%;
+    width: 100%;
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body {
+    display: flex;
+    background-color: #181818;
+    text-align: center;
+}
+
+#logobutton {
+    display: flex;
+    background-image: url('logoyoutube.png');
+    background-size: 95px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    outline: none;
+    border-style: hidden;
+    padding: 12px 50px;
+    cursor: pointer;
+    justify-self: left;
+    align-self: left;
+}
+
+#menubutton {
+    display: flex;
+    background-image: url('menubar.png');
+    background-size: 19px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    outline: none;
+    border-style: hidden;
+    padding: 9px 50px;
+    cursor: pointer;
+    justify-self: left;
+    align-self: left;
+}
