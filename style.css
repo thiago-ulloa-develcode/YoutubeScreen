@@ -114,3 +114,12 @@ body {
 .sidemenu-open {
   width: 15%;
 }
+
+#homebutton {
+  display: flex;
+  outline: none;
+  border-style: hidden;
+  cursor: pointer;
+  width: 20px;
+  margin: 20px;
+}
